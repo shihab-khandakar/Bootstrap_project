@@ -1,0 +1,257 @@
+/* navbar */
+
+#top_nav{
+    background-color: #daac00;
+    padding: 0 8%;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+#searchbox{
+    background-color: #fcc302;
+    color: white;
+    border: 0;
+    border-radius: 0;
+    position: relative;
+    left: 46px;
+    box-shadow: 5px 10px 11px #00000021;
+}
+
+#searchbox::placeholder{
+    color: white;
+}
+
+#searchbtn{
+    position: relative;
+    z-index: 99;
+    background-color: #00bec9;
+    color: white;
+    border: 0;
+    border-radius: 0;
+}
+
+@media only screen and (max-width:768px) {
+    #searchform{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        position: relative;
+        left: -20px;
+    }
+}
+
+
+/* banner */
+
+#banner{
+    background-color: #fcc302;
+}
+
+#baner-text h1{
+    color: white;
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+#baner-text p{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#banner-btn-1{
+    background-color: #00bec9;
+    color: white;
+    border: 2px solid #00bec9;
+    margin-top: 15px;
+}
+
+#banner-btn-2{
+    color: white;
+    border: 2px solid white;
+    margin-left: 20px;
+    margin-top: 15px;
+    
+}
+
+@media only screen and (max-width:1300px) {
+    #baner-text h1{
+        
+        font-size: 46px;
+        
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+    #baner-text h1{
+        
+        font-size: 40px;
+        
+    }
+
+    #banner-image{
+        padding-top: 70px;
+        
+    }
+    #banner-btn-1{
+        margin-bottom: 25px;
+    }
+    
+    #banner-btn-2{
+        margin-bottom: 25px;
+        
+    }
+
+}
+
+@media only screen and (max-width:500px) {
+    #baner-text h1{
+        
+        font-size: 30px;
+        
+    }
+    #banner-btn-1{
+        margin-bottom: 25px;
+    }
+    
+    #banner-btn-2{
+        margin-bottom: 25px;
+        
+    }
+   
+}
+
+
+/* service section */
+
+#service-text{
+    padding-top: 5%;
+}
+
+#service-btn{
+    background-color: #fcc302;
+    color: white;
+    border: 2px solid #fcc302;
+}
+
+#service-img{
+    padding: 2%;
+}
+
+@media only screen and (max-width:1300px) {
+    #service-img{
+        margin-top: 45px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    #service-text h1 {
+        font-size: calc(1.375rem + 0.5vw);
+    }
+    #service-img{
+        margin-top: 55px;
+    }
+}
+
+
+/* blog section */
+
+#blog{
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+#blog-title{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#blog-p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.artical-details{
+    padding: 15px;
+    border: 1px solid rgb(185, 185, 185);
+    border-top:none ;
+}
+
+.artical-date, .artical-link{
+    color: #00bec9;
+}
+
+/* footer */
+
+#footer{
+    background-color: #343434;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+
+#footer-form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#footer-search-box{
+    background-color: #fcc302;
+    padding: 15px;
+    border: 0;
+    border-radius: 0;
+    width: 100%;
+    max-width: 300px;
+    position: relative;
+    left: 10px;
+}
+
+#footer-search-btn{
+    background-color: #00bec9;
+    padding: 15px 40px;
+    border: 0;
+    border-radius: 0;
+}
+
+.social-icon{
+    font-size: 30px;
+    padding-left: 7px;
+}
+
+@media only screen and (max-width:1150px){
+    #footer-search-box{
+        max-width: 200px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    #footer-search-box{
+        max-width: 120px;
+    }
+}
+
+@media only screen and (max-width:500px){
+    #footer-search-box{
+        max-width: 200px;
+    }
+
+    #footer{
+        padding-top: 15px;
+        
+    }
+
+    #footer h4{
+        padding-top: 50px;
+        
+    }
+
+}
